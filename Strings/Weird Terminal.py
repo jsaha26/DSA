@@ -30,12 +30,6 @@ import string
 
 def count_lines(text1):
     text = ''.join([char for char in text1 if char not in string.punctuation])
-    words = text.split()
-    lines = 0
-
-    for i in range(0, len(words), 2):
-        lines += 1
-
-    return lines
+    return len(text.split())//2
 
 print(count_lines("How long do you have to sit dear ?"))
