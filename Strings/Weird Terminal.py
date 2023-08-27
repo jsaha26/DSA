@@ -28,8 +28,8 @@
 
 import string
 
-def count_lines(text1):
+def f(text1):
     text = ''.join([char for char in text1 if char not in string.punctuation])
     return len(text.split())//2
 
-print(count_lines("How long do you have to sit dear ?"))
+print(f("How long do you have to sit dear ?"))
