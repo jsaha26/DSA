@@ -11,6 +11,9 @@
 '''
 class Solution:
     def removeDuplicates(self, head):
+	
+	if not head or not head.next:
+            return head
 
         seen = set()
         curr = head
