@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/zigzag-conversion/
+
 class Solution:
     def convert(self, s, numRows):
         if numRows == 1 or numRows >= len(s):
