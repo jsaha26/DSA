@@ -22,8 +22,7 @@ class Solution
     void deleteNode(ListNode *del)
     {
        // 'del' => node to be deleted 
-       // Instead of deleting that particular node, we can overwrite its data
-       // with the data of the next node and then unlink the next node
+       // Instead of deleting that particular node, we can overwrite its data with the data of the next node and then unlink the next node
        del->val = del->next->val;
        del->next = del->next->next;     
     }
