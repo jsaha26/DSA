@@ -1,3 +1,5 @@
+# https://practice.geeksforgeeks.org/problems/minimum-sum-of-absolute-differences-of-pairs/1
+
 class Solution:
     def findMinSum(self, a, b, n):
     
